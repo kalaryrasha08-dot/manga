@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="cowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F3F4F6" />
+    </linearGradient>
+    <linearGradient id="snout" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="horn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle/squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+
+  <!-- Mountain Meadow Horizon inside icon -->
+  <path d="M 0 380 Q 256 340 512 380 L 512 512 L 0 512 Z" fill="#10B981" />
+  <path d="M 0 420 Q 256 390 512 420 L 512 512 L 0 512 Z" fill="#059669" />
+
+  <!-- Cow Horns -->
+  <path d="M 180 180 C 140 100 190 70 200 130 Z" fill="url(#horn)" stroke="#451A03" stroke-width="6" stroke-linejoin="round" />
+  <path d="M 332 180 C 372 100 322 70 312 130 Z" fill="url(#horn)" stroke="#451A03" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Cow Ears -->
+  <path d="M 160 210 C 80 180 80 260 140 270 Z" fill="url(#cowGrad)" stroke="#451A03" stroke-width="6" stroke-linejoin="round" />
+  <path d="M 155 220 C 100 200 100 250 140 255 Z" fill="#F472B6" />
+
+  <path d="M 352 210 C 432 180 432 260 372 270 Z" fill="url(#cowGrad)" stroke="#451A03" stroke-width="6" stroke-linejoin="round" />
+  <path d="M 357 220 C 412 200 412 250 372 255 Z" fill="#F472B6" />
+
+  <!-- Cow Head -->
+  <path d="M 160 210 C 160 140 352 140 352 210 C 372 280 360 350 330 380 C 290 410 222 410 182 380 C 152 350 140 280 160 210 Z" fill="url(#cowGrad)" stroke="#451A03" stroke-width="7" stroke-linejoin="round" />
+
+  <!-- Cow Patches -->
+  <path d="M 180 160 C 200 160 220 180 210 210 C 200 230 165 230 170 190 Z" fill="#18181B" />
+  <path d="M 320 160 C 345 170 350 210 330 230 C 310 220 300 190 320 160 Z" fill="#18181B" />
+
+  <!-- Kurdish Hat (Klaw & Jamana) -->
+  <ellipse cx="256" cy="140" rx="70" ry="24" fill="#1E293B" stroke="#451A03" stroke-width="5" />
+  <path d="M 186 140 C 190 95 322 95 326 140 Z" fill="#991B1B" stroke="#451A03" stroke-width="5" />
+  <line x1="205" y1="130" x2="307" y2="130" stroke="#FDE047" stroke-width="4" stroke-dasharray="6 4" />
+  <circle cx="256" cy="98" r="8" fill="#FDE047" />
+
+  <!-- Eyes -->
+  <ellipse cx="215" cy="240" rx="16" ry="18" fill="#18181B" />
+  <circle cx="210" cy="234" r="6" fill="#FFFFFF" />
+  <ellipse cx="297" cy="240" rx="16" ry="18" fill="#18181B" />
+  <circle cx="292" cy="234" r="6" fill="#FFFFFF" />
+
+  <!-- Snout -->
+  <rect x="186" y="275" width="140" height="90" rx="45" fill="url(#snout)" stroke="#451A03" stroke-width="6" />
+  <ellipse cx="226" cy="305" rx="8" ry="12" fill="#831843" />
+  <ellipse cx="286" cy="305" rx="8" ry="12" fill="#831843" />
+  <!-- Happy smiling mouth -->
+  <path d="M 236 335 Q 256 350 276 335" stroke="#451A03" stroke-width="5" stroke-linecap="round" fill="none" />
+
+  <!-- Golden Bell -->
+  <path d="M 240 395 L 272 395 L 280 435 L 232 435 Z" fill="#FBBF24" stroke="#451A03" stroke-width="4" />
+  <circle cx="256" cy="438" r="6" fill="#B45309" />
+</svg>

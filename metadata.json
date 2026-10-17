@@ -1,0 +1,6 @@
+{
+  "name": "کاک مانگا | Kak Manga - Kurdish Talking Cow & Video Studio",
+  "description": "مانگایەکی زیرەکی قسەکەری کوردی بە دەنگ، گۆرانی، نوکتە، شرۆڤەی ڤیدیۆ بە Gemini 4 Argon و دروستکەری مانگای کۆمیکس.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

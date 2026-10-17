@@ -1,0 +1,9 @@
+{
+  "appId": "com.kakmanga.kurdishapp",
+  "appName": "کاک مانگا | Kak Manga",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

@@ -1,11 +1,34 @@
-<div align="center">
+# کاک مانگا | Kak Manga - Kurdish Talking Cow & Video Studio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+ئەپڵیکەیشنی زیرەکی کوردی بە دەنگ، گۆرانی، نوکتە، شرۆڤەی ڤیدیۆ بە Gemini 4 Argon، و ستۆدیۆی مانگای کۆمیکس.
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 📱 چۆنیەتی دروستکردنی پەڕگەی APK لە ڕێگەی GitHub:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+ئەم پڕۆژەیە بە تەواوی ئامادەکراوە بە فایلی ئۆتۆماتیکی **GitHub Actions** (`.github/workflows/build-apk.yml`):
 
-</div>
+1. **کۆدەکان ببە بۆ GitHub:**
+   - پڕۆژەکە لە کۆگایەکی نوێ لە **GitHub** پۆست (Push) بکە.
+2. **کردارەکانی GitHub Actions:**
+   - بچۆ بەشی **Actions** لە گێتهەبەکەت.
+   - دەبینیت کە فەرمانی **Build Android APK** خۆکارانە دەستپێدەکات.
+3. **دابەزاندنی پەڕگەی APK:**
+   - کاتێک بیلدەکە تەواو بوو (سەوز بوو)، بچۆ سەر ئەنجامەکە و لە بەشی **Artifacts** کلیک لەسەر **kak-manga-android-apk** بکە تا فایلە دەستکاریکراوەکەی `.apk` دابەزێنیت و لەسەر مۆبایلی ئەندرۆید دایبمەزرێنیت!
+
+---
+
+## 🛠️ ڕێگای دووەم: دروستکردنی خێرا بەبێ کۆمپیڵەر (PWABuilder / TWA):
+دەتوانیت لینکی ئەم بەرنامەیە بخەیتە ناو [PWABuilder.com](https://www.pwabuilder.com) و ڕاستەوخۆ پەڕگەی APK یان AAB بۆ Google Play وەربگریت، چونکە تەواوی ستانداردەکانی PWA تێدایە.
+
+---
+
+## 💻 دامەزراندن لەسەر کۆمپیوتەر:
+
+```bash
+# دامەزراندنی پێداویستییەکان
+npm install
+
+# دەستپێکردنی سێرڤەر
+npm run dev
+```
