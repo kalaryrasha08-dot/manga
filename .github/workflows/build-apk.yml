@@ -13,18 +13,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # گۆڕدرا بۆ Java 21 بۆ ئەوەی لەگەڵ وەشانی نوێی ئەندرۆید بگونجێت
       - name: Set up Java JDK
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # لێرەدا legacy-peer-deps چالاک دەکرێت بۆ ئەوەی باگی edgesOut نەمێنێت
       - name: Install dependencies
         run: |
           npm config set legacy-peer-deps true
